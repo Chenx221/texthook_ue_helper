@@ -5,6 +5,7 @@ set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 add_subdirectory("KismetDebuggerMod")
 add_subdirectory("GalHome")
 add_subdirectory("JinkiUnlimited")
+add_subdirectory("gohellgo")
 
 # Organize targets in the "mods" folder
 get_property(TARGETS DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY BUILDSYSTEM_TARGETS)
