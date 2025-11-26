@@ -6,6 +6,7 @@ add_subdirectory("KismetDebuggerMod")
 add_subdirectory("GalHome")
 add_subdirectory("JinkiUnlimited")
 add_subdirectory("gohellgo")
+add_subdirectory("Inaka")
 
 # Organize targets in the "mods" folder
 get_property(TARGETS DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY BUILDSYSTEM_TARGETS)
